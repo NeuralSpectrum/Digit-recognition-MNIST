@@ -38,7 +38,7 @@ Finally, the deliverables encompass two key components:
 
 1. A visual representation showcasing the comparison between test images and their corresponding predictions.  
 
-2. A CSV file containing all predictions, structured with 20,000 rows and two columns: ImageId and Label.  
+2. A CSV file containing all predictions, structured with **28,000** rows and **2** columns: **ImageId and Label**.  
 
 These deliverables encapsulate both the visual assessment of model performance and the systematic organization of predictions for further analysis and evaluation.
 
