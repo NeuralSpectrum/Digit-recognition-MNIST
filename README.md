@@ -30,7 +30,8 @@ To transform the 2D feature maps into a 1D vector.
 1st layer: 128 neurons, ReLU activation function.
 2nd layer (Output Layer): 10 neurons with softmax activation for multi-class classification (digits 0-9).  
 
-**Input Shape: (28, 28, 1)** - Corresponding to grayscale images of size 28x28 pixels.
+**Input Shape: (28, 28, 1):**  
+Corresponding to grayscale images of size 28x28 pixels.
 
 During the training process of this CNN model, we implement a **Model Checkpoint** mechanism. This functionality enables us to save the optimal model parameters achieved during training, thereby ensuring that the best-performing model is preserved for future use or evaluation.
 
