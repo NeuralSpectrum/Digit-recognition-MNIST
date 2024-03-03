@@ -13,12 +13,17 @@ In order to build a robust digit recognition model we make use of **Convolutiona
 The model architecture is as follows:  
 
 Layers:
-Two Convolutional Layers:
-1st layer: 100 filters, kernel size of (5, 5), ReLU activation function.
-2nd layer: 50 filters, kernel size of (5, 5), ReLU activation function.
-Flatten Layer: To transform the 2D feature maps into a 1D vector.
-Two Dense (Fully Connected) Layers:
+Two Convolutional Layers:  
+
+1st layer: 100 filters, kernel size of (5, 5), ReLU activation function.  
+
+2nd layer: 50 filters, kernel size of (5, 5), ReLU activation function.  
+
+Flatten Layer: To transform the 2D feature maps into a 1D vector.  
+
+Two Dense (Fully Connected) Layers:  
 1st layer: 128 neurons, ReLU activation function.
-2nd layer (Output Layer): 10 neurons with softmax activation for multi-class classification (digits 0-9).
+2nd layer (Output Layer): 10 neurons with softmax activation for multi-class classification (digits 0-9).  
+
 Input Shape: (28, 28, 1) - Corresponding to grayscale images of size 28x28 pixels.
  
