@@ -15,20 +15,20 @@ In order to build a robust digit recognition model we make use of **Convolutiona
 
 The model architecture is as follows:  
 
-Layers:
-Two Convolutional Layers:  
+**Layers:**
+**Two Convolutional Layers:**  
 
 1st layer: 100 filters, kernel size of (5, 5), ReLU activation function.  
 
 2nd layer: 50 filters, kernel size of (5, 5), ReLU activation function.  
 
-Flatten Layer: To transform the 2D feature maps into a 1D vector.  
+**Flatten Layer:** To transform the 2D feature maps into a 1D vector.  
 
-Two Dense (Fully Connected) Layers:  
+**Two Dense (Fully Connected) Layers:**  
 1st layer: 128 neurons, ReLU activation function.
 2nd layer (Output Layer): 10 neurons with softmax activation for multi-class classification (digits 0-9).  
 
-Input Shape: (28, 28, 1) - Corresponding to grayscale images of size 28x28 pixels.
+**Input Shape: (28, 28, 1)** - Corresponding to grayscale images of size 28x28 pixels.
 
 During the training process of this CNN model, we implement a **Model Checkpoint** mechanism. This functionality enables us to save the optimal model parameters achieved during training, thereby ensuring that the best-performing model is preserved for future use or evaluation.
 
@@ -36,9 +36,9 @@ During the training process of this CNN model, we implement a **Model Checkpoint
 
 Finally, the deliverables encompass two key components:
 
-1.A visual representation showcasing the comparison between test images and their corresponding predictions.  
+1. A visual representation showcasing the comparison between test images and their corresponding predictions.  
 
-2.A CSV file containing all predictions, structured with 20,000 rows and two columns: ImageId and Label.  
+2. A CSV file containing all predictions, structured with 20,000 rows and two columns: ImageId and Label.  
 
 These deliverables encapsulate both the visual assessment of model performance and the systematic organization of predictions for further analysis and evaluation.
 
