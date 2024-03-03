@@ -36,7 +36,7 @@ During the training process of this CNN model, we implement a **Model Checkpoint
 
 Finally, the deliverables encompass two key components:
 
-1. A visual representation showcasing the comparison between test images and their corresponding predictions.  
+1. A visual representation showcasing the comparison between **test images** and their **corresponding predictions**.  
 
 2. A CSV file containing all predictions, structured with **28,000** rows and **2** columns: **ImageId and Label**.  
 
